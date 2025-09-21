@@ -11,7 +11,7 @@ See the readme file: [census_readme.md](census_readme.md)
 
 The data was obtained from US census data: https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/ and processed by course staff.
 
-Data file: [aggregate_census_dataset.csv](aggregate_census_dataset.csv) - **warning:** this is actually tab separated
+Data file: [full_census_dataset.csv](full_census_dataset.csv) - **warning:** this is actually tab separated
 
 ## Global Lifespan Data
 
