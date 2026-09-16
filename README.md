@@ -1,6 +1,8 @@
-# Datasets curated for CS765 Data Visualization (2025) at UW-Madison
+# Datasets curated for CS765 Data Visualization at UW-Madison
 
-A discussion of how these two data sets are used in class is
+These datasets were originally created for CS765 in 2025. We are using the same ones in 2026.
+
+A discussion of how these two data sets were used in 2025
 available at: https://pages.graphics.cs.wisc.edu/765-25/pages/two-data-sets/
 
 The idea is that there are two data sets: one in "wide" format, and the other in "tall" format.
