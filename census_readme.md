@@ -2,11 +2,15 @@
 
 This dataset was created by merging four separate files from the [USDA Economic Research Service]("https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/"). The data was collected at the county level, though state-level data is also available. 
 
-It is worth noting that counties vary greatly in population and size. In addition, there are various regions that are not strictly 'counties', because US state governments have a great deal of control over county creation. For example, during the period this dataset covers, Connecticut went from having 8 counties to having 9 planning regions, with no 1-1 correlations. The dataset also includes Washington, D.C. and Puerto Rico, which are not states or part of states but are controlled by the US federal government.
+It is worth noting that counties vary a lot in population and size. In addition, there are various regions that are not strictly 'counties', because US state governments have a great deal of control over county creation. For example, during the period this dataset covers, Connecticut went from having 8 counties to having 9 planning regions, with no 1-1 correlations. (Alaska has a similar issue.) The dataset also includes Washington, D.C. and Puerto Rico, which are not states or part of states but are controlled by the US federal government.
+
+In addition, we do not have all years' data for all variables. The comprehensive census is taken every 10 years (including 2020!), while other statistics like employment and income are released much more frequently. 
 
 ## How was this modified?
 
-The TA (Cat) joined the four datasets on FIPS Code and removed some redundant columns. Some columns were also renamed in an attempt to unify the naming scheme.The area names were manually edited to remove any non-English characters, but the rest of the data is untouched. We assume that the state-level aggregations are correct; they were included in the initial dataset and are also unmodified.
+The TA (Cat) joined the four datasets on FIPS Code and removed some redundant columns. Some columns were also renamed in an attempt to unify the naming scheme. The area names were manually edited to remove any non-English characters, but the rest of the data is untouched. We assume that the state-level aggregations are correct; they were included in the initial dataset and are also unmodified.
+
+This year, the TA has ordered the columns categorically instead of alphabetically, added poverty data, and (with an LLM's help) updated column names for improved consistency and clarity.
 
 ## Columns
 
@@ -19,3 +23,5 @@ As a wide dataset, there are quite a few columns, a subset of which is explained
 * Domestic migration 2019 - The number of people who moved to the county from elsewhere in the US. The "year" indicated here is from July 1, 2018 to June 30, 2019.
 * Natural Change Rate 2023 - The difference between birth and death rates, that is, the population change rate not counting migration
 * Unemployed 2023 - The count of people in the county that are searching for work and have no current employment. Unemployment rate is also available in the dataset.
+* Metro Area, 2023 - A boolean indicating whether or not the county is a metro area.
+* Poverty Rate, All Ages, 2023 - The United States Census determines poverty status by comparing a household's total income to the income required for said household to meet their basic needs. The poverty threshold depends on household size, but not location - 

@@ -11,9 +11,9 @@ The idea is that there are two data sets: one in "wide" format, and the other in
 
 See the readme file: [census_readme.md](census_readme.md)
 
-The data was obtained from US census data: https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/ and processed by course staff.
+The data was obtained from US census data: https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/ and processed by course staff. In 2026, we removed Group Quarters population estimates and added some poverty data. Some columns were also renamed.
 
-Data file: [full_census_dataset.csv](full_census_dataset.csv) - **warning:** this is actually tab separated
+Data file: [full_census_dataset.csv](full_census_dataset.csv)
 
 ## Global Lifespan Data
 
