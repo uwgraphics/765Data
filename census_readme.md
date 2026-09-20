@@ -24,4 +24,4 @@ As a wide dataset, there are quite a few columns, a subset of which is explained
 * Natural Change Rate 2023 - The difference between birth and death rates, that is, the population change rate not counting migration
 * Unemployed 2023 - The count of people in the county that are searching for work and have no current employment. Unemployment rate is also available in the dataset.
 * Metro Area, 2023 - A boolean indicating whether or not the county is a metro area.
-* Poverty Rate, All Ages, 2023 - The United States Census determines poverty status by comparing a household's total income to the income required for said household to meet their basic needs. The poverty threshold depends on household size, but not location - 
+* Poverty Rate, All Ages, 2023 - The United States Census determines poverty status by comparing a household's total income to the income required for said household to meet their basic needs. The poverty threshold depends on household size, but not location (or local cost of living).
