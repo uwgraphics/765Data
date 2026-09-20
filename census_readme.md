@@ -21,7 +21,8 @@ As a wide dataset, there are quite a few columns, a subset of which is explained
 * 2023 Urban Influence Code - A 12-category variable (that was condensed into 9 categories in 2024) that classifies counties based on their resident count and their distance from (or status as) a metropolitan area.
 * Bachelor's degree or higher, 1990 - The count of residents **over the age of 25** at that education level during that census period.
 * Domestic migration 2019 - The number of people who moved to the county from elsewhere in the US. The "year" indicated here is from July 1, 2018 to June 30, 2019.
-* Natural Change Rate 2023 - The difference between birth and death rates, that is, the population change rate not counting migration
+* Natural Change Rate 2023 - The difference between birth and death rates, that is, the population change rate not counting migration.
 * Unemployed 2023 - The count of people in the county that are searching for work and have no current employment. Unemployment rate is also available in the dataset.
 * Metro Area, 2023 - A boolean indicating whether or not the county is a metro area.
 * Poverty Rate, All Ages, 2023 - The United States Census determines poverty status by comparing a household's total income to the income required for said household to meet their basic needs. The poverty threshold depends on household size, but not location (or local cost of living).
+* Civilian Labor Force, 2023 - Includes everyone classified as employed *and* everyone classified as actively seeking work.
