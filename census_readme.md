@@ -19,7 +19,7 @@ As a wide dataset, there are quite a few columns, a subset of which is explained
 * FIPS Code - Stands for "Federal Information Processing System". This is a 5 digit string (any leading zeros are part of it), and each county has a unique FIPS code. This is the ID column, as counties do not necessarily have unique names.
 * 2023 Rural-urban Continuum Code - A 9-category variable that, according to the USDA website, "distinguish[es] U.S. metropolitan (metro) counties by the population size of their metro area, and nonmetropolitan (nonmetro) counties by their degree of urbanization and adjacency to a metro area."
 * 2023 Urban Influence Code - A 12-category variable (that was condensed into 9 categories in 2024) that classifies counties based on their resident count and their distance from (or status as) a metropolitan area.
-* Bachelor's degree or higher, 1990 - The count of residents who achieved that education level in the year listed
+* Bachelor's degree or higher, 1990 - The count of residents **over the age of 25** at that education level during that census period.
 * Domestic migration 2019 - The number of people who moved to the county from elsewhere in the US. The "year" indicated here is from July 1, 2018 to June 30, 2019.
 * Natural Change Rate 2023 - The difference between birth and death rates, that is, the population change rate not counting migration
 * Unemployed 2023 - The count of people in the county that are searching for work and have no current employment. Unemployment rate is also available in the dataset.
