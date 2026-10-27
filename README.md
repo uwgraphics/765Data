@@ -13,6 +13,10 @@ These data sets are being used in CS765 in 2026. We do not recommend students us
 
 Datasets 1.1, 1.2, and 2.2 were originally created for [CS765 in 2025](https://pages.graphics.cs.wisc.edu/765-25/pages/two-data-sets/).
 
+The composite census data set (2.1) was built by Claude under the direction of course staff (see its readme).
+
+CS765 course material · AI use: [pages.graphics.cs.wisc.edu/765-26/ai/de](https://pages.graphics.cs.wisc.edu/765-26/ai/de/)
+
 ## US Census Data
 
 We provide data, aggregated at both the state and county level, for a wide range of variables including population and population change (births, deaths, and migration), education, employment and unemployment, poverty, income, and how rural or urban each county is. The composite version adds age, race and ethnicity, housing costs, and presidential election results.

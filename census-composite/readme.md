@@ -16,6 +16,8 @@ templates/data_readme.md. Edit the template, not this file. -->
 
 AI Statement: This data set (including this README) was built by Claude under direction of course staff. Claude found the data sets, wrote scripts to reformat the data, and wrote the documentation. Staff made light edits to the files.
 
+CS765 course material · AI use: [pages.graphics.cs.wisc.edu/765-26/ai/de](https://pages.graphics.cs.wisc.edu/765-26/ai/de/)
+
 ## Quick start
 
 - **One row per county, few columns** (good for maps and scatterplots):
