@@ -9,11 +9,11 @@ The idea is that there are two data sets: one in "wide" format, and the other in
 
 ## US Census Data
 
-See the readme file: [census_readme.md](census_readme.md)
+Files are in the [census-usda/](census-usda/) folder. See the readme file: [census-usda/readme.md](census-usda/readme.md)
 
 The data was obtained from US census data: https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/ and processed by course staff. In 2026, we removed Group Quarters population estimates and added some poverty data. Some columns were also renamed.
 
-Data file: [full_census_dataset.csv](full_census_dataset.csv)
+Data file: [census-usda/full_census_dataset.csv](census-usda/full_census_dataset.csv) (state-level totals: [census-usda/aggregate_census_dataset.csv](census-usda/aggregate_census_dataset.csv))
 
 ## Global Lifespan Data
 
@@ -26,13 +26,17 @@ We provide two versions:
 
 ### World Bank Data
 
-See the readme file: [lifespan_readme.md](lifespan_readme.md) 
+Files are in the [life-expectancy-worldbank/](life-expectancy-worldbank/) folder. See the readme file: [life-expectancy-worldbank/readme.md](life-expectancy-worldbank/readme.md)
 
 The data was obtained from Global lifespan data: https://data.worldbank.org/indicator/SP.DYN.LE00.IN
+
+Data file: [life-expectancy-worldbank/lifespan_dataset_1960.csv](life-expectancy-worldbank/lifespan_dataset_1960.csv)
 
 ### Our World in Data Data
 
 Their web page (with some visualizations and explanations) is: https://ourworldindata.org/life-expectancy. We downloaded the data in September, 2025.
+
+Files are in the [life-expectancy-owid/](life-expectancy-owid/) folder.
 
 Their Readme: [readme.md](life-expectancy-owid/readme.md)
 

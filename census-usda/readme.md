@@ -1,6 +1,6 @@
 ## Introduction
 
-This dataset was created by merging four separate files from the [USDA Economic Research Service]("https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/"). The data was collected at the county level, though state-level data is also available. 
+This dataset was created by merging four separate files from the [USDA Economic Research Service](https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/). The data was collected at the county level, though state-level data is also available. 
 
 It is worth noting that counties vary a lot in population and size. In addition, there are various regions that are not strictly 'counties', because US state governments have a great deal of control over county creation. For example, during the period this dataset covers, Connecticut went from having 8 counties to having 9 planning regions, with no 1-1 correlations. (Alaska has a similar issue.) The dataset also includes Washington, D.C. and Puerto Rico, which are not states or part of states but are controlled by the US federal government.
 

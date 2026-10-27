@@ -10,7 +10,7 @@ The World Bank dataset is different from the one used in the Tableau tutorial. T
 Similar to the census dataset, many of the attributes can change due to politics (the names and borders of some of the countries involved, in particular, have gone through one or more changes). We are giving the data to you as we found it (aside from some formatting modifications). 
 
 # World Bank Data (lifespan_dataset_1960)
-This dataset was made available by the [World Bank]("https://data.worldbank.org/indicator/SP.DYN.LE00.IN"). It covers the years 1960-2023.
+This dataset was made available by the [World Bank](https://data.worldbank.org/indicator/SP.DYN.LE00.IN). It covers the years 1960-2023.
 
 ## How was this modified?
 
