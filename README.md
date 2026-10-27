@@ -15,6 +15,8 @@ Datasets 1.1, 1.2, and 2.2 were originally created for [CS765 in 2025](https://p
 
 ## US Census Data
 
+We provide data, aggregated at both the state and county level, for a wide range of variables including population and population change (births, deaths, and migration), education, employment and unemployment, poverty, income, and how rural or urban each county is. The composite version adds age, race and ethnicity, housing costs, and presidential election results.
+
 We provide two versions:
 
 - A composite data set, assembled in 2026 from several federal sources, with about 50 variables for every county, for every year from 2000 to 2024.
