@@ -23,7 +23,3 @@ The TA merged three of the available datasets (Male, female, and total life expe
 * Sex - One of "Male", "Female", or "Both"
 * Year - The year to which the numerical data applies
 * Life Expectancy (years) - The estimated average lifespan for residents in any given year. Many, many different variables are considered when calculating this number.
-
-# Vienna Dataset (life-expectancy-1950.csv)
-
-TODO

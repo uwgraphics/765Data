@@ -1,0 +1,59 @@
+variable,topic,label,unit,source,county_years,in_state_files,in_compact,notes
+population,Population and population change,Population (July 1 estimate),persons,Census PEP,2000–2024,yes,yes,"2000-2019 use the Census Bureau's revised (intercensal) estimates, so there is no artificial jump at 2010 or 2020."
+population_density,Population and population change,Population per square mile of land,persons/sq mi,Census PEP + Gazetteer,2000–2024,yes,yes,population / land_area_sqmi. Uses current land area for every year.
+births,Population and population change,Births during the year ending July 1,persons,Census PEP,"2001–2009, 2011–2019, 2021–2024",yes,no,"Year ending July 1. Missing for 2000, 2010, 2020: in census years the estimates cover only April-July."
+deaths,Population and population change,Deaths during the year ending July 1,persons,Census PEP,"2001–2009, 2011–2019, 2021–2024",yes,no,As for births.
+natural_change,Population and population change,Births minus deaths,persons,Census PEP,"2001–2009, 2011–2019, 2021–2024",yes,no,As for births.
+international_migration,Population and population change,Net international migration,persons,Census PEP,"2001–2009, 2011–2019, 2021–2024",yes,no,As for births.
+domestic_migration,Population and population change,Net domestic (within-US) migration,persons,Census PEP,"2001–2009, 2011–2019, 2021–2024",yes,no,As for births.
+net_migration,Population and population change,Net migration (international + domestic),persons,Census PEP,"2001–2009, 2011–2019, 2021–2024",yes,no,As for births.
+birth_rate,Population and population change,Birth rate,"per 1,000 people",derived,"2001–2009, 2011–2019, 2021–2024",yes,yes,births / population x 1000.
+death_rate,Population and population change,Death rate,"per 1,000 people",derived,"2001–2009, 2011–2019, 2021–2024",yes,yes,deaths / population x 1000.
+natural_change_rate,Population and population change,Natural change rate,"per 1,000 people",derived,"2001–2009, 2011–2019, 2021–2024",yes,no,natural_change / population x 1000.
+international_migration_rate,Population and population change,International migration rate,"per 1,000 people",derived,"2001–2009, 2011–2019, 2021–2024",yes,no,international_migration / population x 1000.
+domestic_migration_rate,Population and population change,Domestic migration rate,"per 1,000 people",derived,"2001–2009, 2011–2019, 2021–2024",yes,no,domestic_migration / population x 1000. Negative = more people moved out.
+net_migration_rate,Population and population change,Net migration rate,"per 1,000 people",derived,"2001–2009, 2011–2019, 2021–2024",yes,yes,net_migration / population x 1000.
+median_age,Age,Median age,years,Census PEP,2000–2024,no,yes,Medians cannot be added up across counties.
+pct_under_18,Age,Percent of population under 18,percent,Census PEP,2000–2024,yes,yes,
+pct_65_plus,Age,Percent of population 65 and over,percent,Census PEP,2000–2024,yes,yes,
+pct_hispanic,Race and ethnicity,Percent Hispanic or Latino (any race),percent,Census PEP,2000–2024,yes,yes,
+pct_white_nh,Race and ethnicity,"Percent White alone, not Hispanic",percent,Census PEP,2000–2024,yes,yes,
+pct_black_nh,Race and ethnicity,"Percent Black alone, not Hispanic",percent,Census PEP,2000–2024,yes,yes,
+pct_aian_nh,Race and ethnicity,"Percent American Indian / Alaska Native alone, not Hispanic",percent,Census PEP,2000–2024,yes,yes,
+pct_asian_nh,Race and ethnicity,"Percent Asian alone, not Hispanic",percent,Census PEP,2000–2024,yes,yes,
+pct_nhpi_nh,Race and ethnicity,"Percent Native Hawaiian / Pacific Islander alone, not Hispanic",percent,Census PEP,2000–2024,yes,no,
+pct_two_plus_nh,Race and ethnicity,"Percent two or more races, not Hispanic",percent,Census PEP,2000–2024,yes,no,The seven race/ethnicity percentages are mutually exclusive and sum to 100.
+poverty_count,Poverty and household income,People in poverty (all ages),persons,Census SAIPE,2000–2024,yes,no,"Statistical model estimate. Before 2000, county estimates exist only for 1989, 1993, 1995, 1997."
+poverty_rate,Poverty and household income,"Poverty rate, all ages",percent,Census SAIPE,2000–2024,yes,yes,
+child_poverty_count,Poverty and household income,Children (ages 0-17) in poverty,persons,Census SAIPE,2000–2024,yes,no,Related children in families before 2005.
+child_poverty_rate,Poverty and household income,"Poverty rate, ages 0-17",percent,Census SAIPE,2000–2024,yes,yes,
+median_household_income,Poverty and household income,Median household income,dollars (not inflation-adjusted),Census SAIPE,2000–2024,yes,yes,
+labor_force,Employment,Civilian labor force (annual average),persons,BLS LAUS,2000–2024,yes,no,
+employed,Employment,Employed (annual average),persons,BLS LAUS,2000–2024,yes,no,
+unemployed,Employment,Unemployed (annual average),persons,BLS LAUS,2000–2024,yes,no,
+unemployment_rate,Employment,Unemployment rate,percent,BLS LAUS,2000–2024,yes,yes,unemployed / labor_force x 100 (published by BLS for counties). Connecticut is reported as the 9 planning regions in every year. 2025 (full build only) is an 11-month average because October 2025 data was not collected.
+personal_income,Personal income,Total personal income,thousands of dollars (not inflation-adjusted),BEA CAINC1,2000–2024,yes,no,"Missing for small Virginia independent cities, which BEA combines with a neighboring county."
+per_capita_income,Personal income,Per-capita personal income,dollars (not inflation-adjusted),BEA CAINC1,2000–2024,yes,yes,
+adults_25_plus,Education (adults 25 and older),Adults age 25 and over (education universe),persons,USDA ERS / Census ACS,"2000, 2009–2024",yes,no,"Census for 1970-2000 (via USDA ERS). From 2009 on, 5-year survey averages labeled by their last year (2024 = 2020-2024)."
+pct_less_hs,Education (adults 25 and older),Percent of adults 25+ without a high school diploma,percent,USDA ERS / Census ACS,"2000, 2009–2024",yes,yes,
+pct_hs_only,Education (adults 25 and older),Percent of adults 25+ with high school diploma only,percent,USDA ERS / Census ACS,"2000, 2009–2024",yes,no,
+pct_some_college,Education (adults 25 and older),Percent of adults 25+ with some college or associate degree,percent,USDA ERS / Census ACS,"2000, 2009–2024",yes,no,1970/1980: 1-3 years of college.
+pct_bachelors_plus,Education (adults 25 and older),Percent of adults 25+ with a bachelor's degree or higher,percent,USDA ERS / Census ACS,"2000, 2009–2024",yes,yes,1970/1980: four or more years of college.
+median_home_value,"Housing, nativity, and inequality",Median value of owner-occupied homes,dollars (not inflation-adjusted),Census ACS 5-year,2009–2024,yes,yes,5-year survey average labeled by its last year.
+median_gross_rent,"Housing, nativity, and inequality",Median gross rent (rent + utilities),dollars per month (not inflation-adjusted),Census ACS 5-year,2009–2024,yes,yes,5-year survey average labeled by its last year.
+pct_owner_occupied,"Housing, nativity, and inequality",Percent of occupied housing units that are owner-occupied,percent,Census ACS 5-year,2009–2024,yes,yes,
+pct_foreign_born,"Housing, nativity, and inequality",Percent of population born outside the US,percent,Census ACS 5-year,2009–2024,yes,yes,
+gini_index,"Housing, nativity, and inequality",Gini index of household income inequality,0 (equal) to 1 (unequal),Census ACS 5-year,2010–2024,yes,yes,Starts with 2010 (the 2006-2010 survey average).
+votes_total,Presidential elections,Total votes cast for president,votes,MIT Election Lab,"2000, 2004, 2008, 2012, 2016, 2020, 2024",yes,yes,"Presidential election years only. No Alaska data (it reports by legislative district, not county). Kansas City, MO votes are included in Jackson County."
+votes_dem,Presidential elections,Votes for the Democratic presidential candidate,votes,MIT Election Lab,"2000, 2004, 2008, 2012, 2016, 2020, 2024",yes,no,
+votes_rep,Presidential elections,Votes for the Republican presidential candidate,votes,MIT Election Lab,"2000, 2004, 2008, 2012, 2016, 2020, 2024",yes,no,
+pct_dem,Presidential elections,Democratic share of presidential vote,percent,derived,"2000, 2004, 2008, 2012, 2016, 2020, 2024",yes,yes,votes_dem / votes_total x 100.
+pct_rep,Presidential elections,Republican share of presidential vote,percent,derived,"2000, 2004, 2008, 2012, 2016, 2020, 2024",yes,yes,votes_rep / votes_total x 100.
+land_area_sqmi,Geography and classification,Land area,square miles,Census Gazetteer 2024 (2020 for defunct units),one value per county,no,yes,
+latitude,Geography and classification,Latitude of internal point,degrees,Census Gazetteer,one value per county,no,yes,
+longitude,Geography and classification,Longitude of internal point,degrees,Census Gazetteer,one value per county,no,yes,
+rucc_2013,Geography and classification,"Rural-Urban Continuum Code, 2013",code 1-9,USDA ERS,one value per county,no,yes,"1-3 metro, 4-9 nonmetro."
+rucc_2023,Geography and classification,"Rural-Urban Continuum Code, 2023",code 1-9,USDA ERS,one value per county,no,yes,"1-3 metro, 4-9 nonmetro."
+uic_2013,Geography and classification,"Urban Influence Code, 2013",code 1-12,USDA ERS,one value per county,no,yes,
+uic_2024,Geography and classification,"Urban Influence Code, 2024",code 1-9,USDA ERS,one value per county,no,yes,Scheme changed from 12 to 9 codes.
+metro_2023,Geography and classification,Metropolitan county (2023),"1 = metro, 0 = nonmetro",derived from RUCC 2023,one value per county,no,yes,
