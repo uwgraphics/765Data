@@ -1,11 +1,17 @@
 # Datasets curated for CS765 Data Visualization at UW-Madison
 
-These datasets were originally created for CS765 in 2025. We are using the same ones in 2026.
+A collection of datasets for class assignments in [CS765](https://pages.graphics.cs.wisc.edu/765-26/).
 
-A discussion of how these two data sets were used in 2025
-available at: <https://pages.graphics.cs.wisc.edu/765-25/pages/two-data-sets/>
+1. Life Expectancy Data - two versions
+   1. World Bank - 1960-2023, split by sex (male, female, and both)
+   2. Our World in Data - many years (back to the 1500s for a few countries), both sexes combined
+2. Census Data (State and County Level statistics)
+   1. Composite Data Set - large data set from many sources with many variables, 2000-2024
+   2. USDA Data Set - older data set, fewer variables, fewer years
 
-The idea is that there are two data sets: one in "wide" format, and the other in "tall" format.
+These data sets are being used in CS765 in 2026. We do not recommend students use the USDA data set.
+
+Datasets 1.1, 1.2, and 2.2 were originally created for [CS765 in 2025](https://pages.graphics.cs.wisc.edu/765-25/pages/two-data-sets/).
 
 ## US Census Data
 
@@ -22,6 +28,8 @@ The data comes in several shapes (tall and wide, all variables or a core set, ev
 
 ### USDA Data
 
+This is an older data set - the composite data set is built from the same source material, and includes more variables with a more complete set of years.
+
 Files are in the [census-usda/](census-usda/) folder. See the readme file: [census-usda/readme.md](census-usda/readme.md)
 
 The data was obtained from US census data: <https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/> and processed by course staff. In 2026, we removed Group Quarters population estimates and added some poverty data. Some columns were also renamed.
@@ -34,8 +42,8 @@ Use of this data set was inspired by a a [class assignment](https://teaching.vda
 
 We provide two versions:
 
-- A version that has data post-1960 that includes a breakdown by sex. This data is derived from data from the World Bank.
-- A version that has data for a range of years (including historical data from select countries) that was obtained from Our World in Data.
+- A version from the World Bank that covers 1960-2023 and is split by sex: each country has separate values for males, females, and both sexes combined.
+- A version from Our World in Data that covers many more years, with historical data for some countries going back centuries, but only for both sexes combined.
 
 ### World Bank Data
 
@@ -43,11 +51,15 @@ Files are in the [life-expectancy-worldbank/](life-expectancy-worldbank/) folder
 
 The data was obtained from Global lifespan data: <https://data.worldbank.org/indicator/SP.DYN.LE00.IN>
 
+It covers 1960-2023 for 266 countries and regional groupings (such as "Sub-Saharan Africa" or "High income"). Each country and year has three values: male, female, and both sexes combined (the `Sex` column).
+
 Data file: [life-expectancy-worldbank/lifespan_dataset_1960.csv](life-expectancy-worldbank/lifespan_dataset_1960.csv)
 
 ### Our World in Data Data
 
 Their web page (with some visualizations and explanations) is: <https://ourworldindata.org/life-expectancy>. We downloaded the data in September, 2025.
+
+It covers 265 countries and regions through 2023, with one value per country and year (both sexes combined; no breakdown by sex). Most countries start in 1950, but 95 have earlier historical estimates, some going back to the 1700s (Sweden from 1751) and the United Kingdom to 1543. Early data is sparse: many countries have only scattered years before 1950.
 
 Files are in the [life-expectancy-owid/](life-expectancy-owid/) folder.
 
